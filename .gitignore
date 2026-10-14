@@ -1,3 +1,6 @@
 .vercel
 .claude/launch.json
 node_modules/
+
+.vercel
+.env*

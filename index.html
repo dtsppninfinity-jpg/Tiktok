@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>PN Infinity Creator Hub</title>
+  <meta name="description" content="ศูนย์รวมบรีฟสินค้า ไอเดียคลิป และกติกาสำหรับครีเอเตอร์ TikTok ของ PN Infinity">
+  <meta name="theme-color" content="#0D0D12">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%230D0D12'/%3E%3Cpath d='M24 24c-3-5-11-5-11 0s8 5 11 0 11-5 11 0-8 5-11 0' fill='none' stroke='%23FE2C55' stroke-width='4' stroke-linecap='round' transform='translate(1 1)'/%3E%3Cpath d='M24 24c-3-5-11-5-11 0s8 5 11 0 11-5 11 0-8 5-11 0' fill='none' stroke='%2325F4EE' stroke-width='4' stroke-linecap='round' transform='translate(-1 -1)'/%3E%3Cpath d='M24 24c-3-5-11-5-11 0s8 5 11 0 11-5 11 0-8 5-11 0' fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=Prompt:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap hdr">
+      <div class="mark" id="hdrMark" aria-hidden="true"></div>
+      <h1 id="hdrTitle">PN Infinity Creator Hub</h1>
+      <span class="sub" id="tabname">แคมเปญ</span>
+    </div>
+  </header>
+
+  <main class="wrap" id="main">
+    <section class="panel" id="p-home" aria-labelledby="t-home"></section>
+    <section class="panel" id="p-prod" aria-labelledby="t-prod"></section>
+    <section class="panel" id="p-rules" aria-labelledby="t-rules"></section>
+    <section class="panel" id="p-idea" aria-labelledby="t-idea"></section>
+    <section class="panel" id="p-lib" aria-labelledby="t-lib"></section>
+    <div class="foot" id="foot"></div>
+  </main>
+
+  <nav aria-label="เมนูหลัก">
+    <div class="wrap">
+      <button type="button" data-tab="home">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v9.5h13V10"/><path d="M10 19.5v-5h4v5"/></svg>
+        แคมเปญ
+      </button>
+      <button type="button" data-tab="prod">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8Z"/><path d="M9 8a3 3 0 0 1 6 0"/></svg>
+        สินค้า
+      </button>
+      <button type="button" data-tab="rules">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.5 3.2 8 7.5 9.5 4.3-1.5 7.5-5 7.5-9.5V6L12 3Z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg>
+        กฎ
+      </button>
+      <button type="button" data-tab="idea">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6"/><path d="M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.8.6 1.1 1.3 1.1 2.2h5c0-.9.3-1.6 1.1-2.2A6 6 0 0 0 12 3Z"/></svg>
+        ไอเดีย
+      </button>
+      <button type="button" data-tab="lib">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><path d="M20 4 8.1 15.9M14.5 14.5 20 20M8.1 8.1 11 11"/></svg>
+        ตัดต่อ
+      </button>
+    </div>
+  </nav>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/library.js"></script>
+  <script src="js/wordcheck.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
